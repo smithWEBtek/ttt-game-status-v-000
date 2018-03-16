@@ -19,6 +19,5 @@ def won?(board)
   if WIN_COMBINATIONS != true
     false
   end
-  WIN_COMBINATIONS.each do |win|
-    win[0][0]
+  
 end
