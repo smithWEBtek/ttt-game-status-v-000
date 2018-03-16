@@ -11,7 +11,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  if win_combinations != true
+  if WIN_COMBINATIONS != true
     false
   end
 end
