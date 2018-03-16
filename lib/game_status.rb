@@ -53,7 +53,5 @@ def winner(board)
   token = board[won?(board)[0]]
   if token == "X" || token == "O"
     token
-  else
-    false
   end
 end
