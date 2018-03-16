@@ -26,7 +26,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.each do |full|
-    true
+  if board.include?(" ") || board.include ("")
+    return false  
   end
 end
