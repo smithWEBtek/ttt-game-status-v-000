@@ -29,7 +29,14 @@ def full?(board)
   if board.include?(" ") || board.include?("")
     return false
   else
-    return true  
+    return true
   end
+end
 
+def draw?(board)
+  if !won?(board) && full?(board)
+    return true
+  else
+    return false  
+  end
 end
