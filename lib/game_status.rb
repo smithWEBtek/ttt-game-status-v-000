@@ -14,5 +14,4 @@ def won?(board)
   if WIN_COMBINATIONS != true
     false
   end
-
 end
