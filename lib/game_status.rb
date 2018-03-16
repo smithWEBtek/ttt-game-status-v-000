@@ -50,8 +50,11 @@ def over?(board)
 end
 
 def winner(board)
-  if board[won?(board)[0]]
+  token = board[won?(board)[0]]
+  if token == "X" || token == "O"
+    token
   else
-    false
-  end    
+    nil   
+  end
+
 end
