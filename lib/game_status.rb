@@ -26,7 +26,10 @@ def won?(board)
 end
 
 def full?(board)
-  board.include?("X") || board.include?("O")
-  false
+  if board.include?(" ") || board.include?("")
+    return false
+  else
+    return true  
+  end
 
 end
