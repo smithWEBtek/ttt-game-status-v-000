@@ -29,4 +29,5 @@ def full?(board)
   if board.include?("X") || board.include?("O")
   false
   end
+  true
 end
