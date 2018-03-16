@@ -11,7 +11,9 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  
+  index.each do |top_row_win|
+    top_row_win[0][0]
+  end
   if WIN_COMBINATIONS != true
     false
   end
