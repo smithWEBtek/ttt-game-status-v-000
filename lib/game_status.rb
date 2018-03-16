@@ -26,9 +26,5 @@ def won?(board)
 end
 
 def full?(board)
-  if board[index].include? (" ") || board[index].include? ("")
-    return false
-  else
-    return true
-  end
+  
 end
