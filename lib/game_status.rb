@@ -28,7 +28,7 @@ end
 def full?(board)
   if board.include?("X") || board.include?("O")
   return false
-elsif board.all?("X") && board.all?("O")
-    true
+else position_taken? == true
+  true
   end
 end
