@@ -16,4 +16,5 @@ def won?(board)
   end
   WIN_COMBINATIONS.each do |top_row_win|
     puts top_row_win[0]
+  end  
 end
