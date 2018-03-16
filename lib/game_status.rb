@@ -14,7 +14,4 @@ def won?(board)
   if win_combinations != true
     false
   end
-  win_combinations.each do |top_row_win|
-    top_row_win[0]
-  end
 end
