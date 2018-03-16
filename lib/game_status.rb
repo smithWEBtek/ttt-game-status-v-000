@@ -19,4 +19,5 @@ def won?(board)
   if WIN_COMBINATIONS != true
     false
   end
+  WIN_COMBINATIONS[0][0]
 end
