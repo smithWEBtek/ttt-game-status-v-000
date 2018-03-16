@@ -50,6 +50,6 @@ def over?(board)
 end
 
 def winner(board)
-  combo = won?(board)
+  token = won?(board)[0]
   binding.pry
 end
